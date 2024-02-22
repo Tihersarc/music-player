@@ -60,7 +60,7 @@ class RecyclerAdapter(private var mSongs: MutableList<Song> = mutableListOf()) :
     }
 
     @SuppressLint("NotifyDataSetChanged")
-    fun addSong(newSongs: List<Song>) {
+    fun addSongs(newSongs: List<Song>) {
         mSongs.addAll(newSongs)
         notifyDataSetChanged()
     }
